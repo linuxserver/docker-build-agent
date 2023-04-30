@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+USER_NAME=${USER_NAME:-jenkins}
+
+exec 2>&1 \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost ${LISTEN_PORT:-2222}" \
+    s6-setuidgid "${USER_NAME}" /usr/sbin/sshd.pam -D -e

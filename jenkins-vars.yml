@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-build-agent
+external_type: os
+release_type: stable
+release_tag: latest
+ls_branch: master
+build_armhf: false
+repo_vars:
+  - CONTAINER_NAME = 'build-agent'
+  - BUILD_VERSION_ARG = 'BUILD_AGENT_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-build-agent'
+  - DOCKERHUB_IMAGE = 'linuxserver/build-agent'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/build-agent'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/build-agent'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='false'
+  - CI_PORT='80'
+  - CI_SSL='false'
+  - CI_DELAY='60'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
