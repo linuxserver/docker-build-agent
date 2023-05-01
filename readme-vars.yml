@@ -1,0 +1,32 @@
+---
+
+# project information
+project_name: build-agent
+full_custom_readme: |
+  {% raw -%}
+  # linuxserver/build-agent
+
+  Used as part of the LSIO build process. Not for public consumption.
+
+  ## Running
+
+  ```yml
+  services:
+    build-agent:
+      image: lscr.io/linuxserver/build-agent:latest
+      privileged: true
+      container_name: build-agent
+      environment:
+        - TZ=London/Europe
+        - 'PUBLIC_KEY=<jenkins public key>'
+        - PUID=1000
+        - PGID=1000
+      volumes:
+        - ./docker-data:/config
+      ports:
+        - 2222:2222
+      restart: unless-stopped
+  ```
+
+  - { date: "30.04.23:", desc: "Initial Release." }
+  {%- endraw %}
