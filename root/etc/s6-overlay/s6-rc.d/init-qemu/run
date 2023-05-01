@@ -1,12 +1,11 @@
 #!/usr/bin/with-contenv bash
 
-if [[ $(uname -m) = "x86_64" ]] && [[ ! -e "/dev/kvm" ]]; then
+if [[ $(uname -m) = "x86_64" ]]; then
     echo "┌───────────────────────────────────────────────────────────────────────────────┐"
-    echo "│                    You need to enable to enable QEMU. Run:                    │"
+    echo "│                  Make sure you enable you enable QEMU. Run:                   │"
     echo "│                                                                               │"
     echo "│     docker run --rm --privileged multiarch/qemu-user-static --reset -p yes    │"
     echo "│                                                                               │"
     echo "│                                  on the host                                  │"
     echo "└───────────────────────────────────────────────────────────────────────────────┘"
-    sleep infinity
 fi
