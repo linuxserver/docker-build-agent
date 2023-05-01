@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-if [[ $(uname -m) = "x86_64" ]] && [[ ! -d "/dev/kvm" ]]; then
+if [[ $(uname -m) = "x86_64" ]] && [[ ! -e "/dev/kvm" ]]; then
     echo "┌───────────────────────────────────────────────────────────────────────────────┐"
     echo "│                    You need to enable to enable QEMU. Run:                    │"
     echo "│                                                                               │"
