@@ -103,8 +103,8 @@ if ! id -nG "$(id -nu "${PUID:-911}")" | grep -q "docker"; then
     usermod -aG docker "$(id -nu "${PUID:-911}")"
 fi
 
-git config --global user.email "ci@linuxserver.io"
-git config --global user.name "LinuxServer-CI"
+HOME=/config git config --global user.email "ci@linuxserver.io"
+HOME=/config git config --global user.name "LinuxServer-CI"
 
 if [[ ! -f "/config/.docker/config.json" ]]; then
     echo '{"experimental": "enabled"}' > /config/.docker/config.json
