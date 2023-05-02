@@ -1,5 +1,8 @@
 ---
 
+# explicit disable unraid templating, incase we switch away from full_custom_readme
+unraid_template: false
+
 # project information
 project_name: build-agent
 full_custom_readme: |
