@@ -7,8 +7,8 @@ apk-tools                                                                     2.
 bash                                                                          5.2.15-r5                                           apk           
 brotli-libs                                                                   1.0.9-r15                                           apk           
 btrfs-progs                                                                   6.3.3-r0                                            apk           
-busybox                                                                       1.36.1-r5                                           apk           
-busybox-binsh                                                                 1.36.1-r5                                           apk           
+busybox                                                                       1.36.1-r6                                           apk           
+busybox-binsh                                                                 1.36.1-r6                                           apk           
 c-ares                                                                        1.19.1-r1                                           apk           
 ca-certificates                                                               20230506-r0                                         apk           
 ca-certificates-bundle                                                        20230506-r0                                         apk           
@@ -30,7 +30,7 @@ e2fsprogs-libs                                                                1.
 eudev-libs                                                                    3.2.12-r4                                           apk           
 freetype                                                                      2.13.1-r0                                           apk           
 giflib                                                                        5.2.1-r5                                            apk           
-git                                                                           2.41.0-r2                                           apk           
+git                                                                           2.42.0-r0                                           apk           
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module     
 github.com/Masterminds/semver/v3                                              v3.2.1                                              go-module     
 github.com/Microsoft/hcsshim                                                  v0.10.0-rc.8                                        go-module     
@@ -302,7 +302,7 @@ k8s.io/utils                                                                  v0
 lcms2                                                                         2.15-r4                                             apk           
 libacl                                                                        2.3.1-r4                                            apk           
 libattr                                                                       2.5.1-r5                                            apk           
-libblkid                                                                      2.39.1-r0                                           apk           
+libblkid                                                                      2.39.2-r0                                           apk           
 libbsd                                                                        0.11.7-r3                                           apk           
 libbz2                                                                        1.0.8-r6                                            apk           
 libc-utils                                                                    0.7.2-r5                                            apk           
@@ -325,7 +325,7 @@ libseccomp                                                                    2.
 libssl3                                                                       3.1.2-r0                                            apk           
 libtasn1                                                                      4.19.0-r2                                           apk           
 libunistring                                                                  1.1-r2                                              apk           
-libuuid                                                                       2.39.1-r0                                           apk           
+libuuid                                                                       2.39.2-r0                                           apk           
 libx11                                                                        1.8.6-r0                                            apk           
 libxau                                                                        1.0.11-r3                                           apk           
 libxcb                                                                        1.15-r3                                             apk           
@@ -363,7 +363,7 @@ sigs.k8s.io/json                                                              v0
 sigs.k8s.io/structured-merge-diff/v4                                          v4.2.3                                              go-module     
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module     
 skalibs                                                                       2.13.1.1-r2                                         apk           
-ssl_client                                                                    1.36.1-r5                                           apk           
+ssl_client                                                                    1.36.1-r6                                           apk           
 tini-static                                                                   0.19.0-r2                                           apk           
 tzdata                                                                        2023c-r1                                            apk           
 userspace-rcu                                                                 0.14.0-r2                                           apk           
