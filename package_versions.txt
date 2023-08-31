@@ -12,7 +12,7 @@ busybox-binsh                                                                 1.
 c-ares                                                                        1.19.1-r1                                           apk           
 ca-certificates                                                               20230506-r0                                         apk           
 ca-certificates-bundle                                                        20230506-r0                                         apk           
-containerd                                                                    1.7.3-r0                                            apk           
+containerd                                                                    1.7.5-r0                                            apk           
 coreutils                                                                     9.3-r7                                              apk           
 coreutils-env                                                                 9.3-r7                                              apk           
 coreutils-fmt                                                                 9.3-r7                                              apk           
@@ -28,7 +28,7 @@ e2fsprogs                                                                     1.
 e2fsprogs-extra                                                               1.47.0-r4                                           apk           
 e2fsprogs-libs                                                                1.47.0-r4                                           apk           
 eudev-libs                                                                    3.2.12-r4                                           apk           
-freetype                                                                      2.13.1-r0                                           apk           
+freetype                                                                      2.13.2-r0                                           apk           
 giflib                                                                        5.2.1-r5                                            apk           
 git                                                                           2.42.0-r0                                           apk           
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module     
@@ -71,6 +71,7 @@ github.com/containerd/containerd                                              (d
 github.com/containerd/containerd                                              v1.7.2                                              go-module     
 github.com/containerd/containerd                                              v1.7.3                                              go-module     
 github.com/containerd/continuity                                              v0.4.1                                              go-module     
+github.com/containerd/continuity                                              v0.4.2                                              go-module     
 github.com/containerd/fifo                                                    v1.1.0                                              go-module     
 github.com/containerd/go-cni                                                  v1.1.9                                              go-module     
 github.com/containerd/go-runc                                                 v1.0.0                                              go-module     
@@ -309,7 +310,7 @@ libc-utils                                                                    0.
 libcom_err                                                                    1.47.0-r4                                           apk           
 libcrypto3                                                                    3.1.2-r0                                            apk           
 libcurl                                                                       8.2.1-r0                                            apk           
-libedit                                                                       20221030.3.1-r3                                     apk           
+libedit                                                                       20230828.3.1-r3                                     apk           
 libexpat                                                                      2.5.0-r2                                            apk           
 libffi                                                                        3.4.4-r3                                            apk           
 libidn2                                                                       2.3.4-r3                                            apk           
@@ -371,5 +372,5 @@ utmps-libs                                                                    0.
 xfsprogs                                                                      6.4.0-r0                                            apk           
 xz                                                                            5.4.4-r0                                            apk           
 xz-libs                                                                       5.4.4-r0                                            apk           
-zlib                                                                          1.2.13-r2                                           apk           
+zlib                                                                          1.3-r0                                              apk           
 zstd-libs                                                                     1.5.5-r7                                            apk           
