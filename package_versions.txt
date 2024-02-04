@@ -1,6 +1,6 @@
 NAME                                                                          VERSION                                      TYPE         
-alpine-baselayout                                                             3.5.3-r1                                     apk           
-alpine-baselayout-data                                                        3.5.3-r1                                     apk           
+alpine-baselayout                                                             3.6.0-r0                                     apk           
+alpine-baselayout-data                                                        3.6.0-r0                                     apk           
 alpine-keys                                                                   2.4-r1                                       apk           
 alsa-lib                                                                      1.2.10-r0                                    apk           
 apk-tools                                                                     2.14.0-r5                                    apk           
@@ -21,13 +21,13 @@ coreutils                                                                     9.
 coreutils-env                                                                 9.4-r2                                       apk           
 coreutils-fmt                                                                 9.4-r2                                       apk           
 coreutils-sha512sum                                                           9.4-r2                                       apk           
-curl                                                                          8.5.0-r1                                     apk           
+curl                                                                          8.6.0-r0                                     apk           
 dario.cat/mergo                                                               v1.0.0                                       go-module     
-docker                                                                        25.0.1-r0                                    apk           
-docker-cli                                                                    25.0.1-r0                                    apk           
+docker                                                                        25.0.2-r0                                    apk           
+docker-cli                                                                    25.0.2-r0                                    apk           
 docker-cli-buildx                                                             0.12.1-r0                                    apk           
 docker-cli-compose                                                            2.24.5-r0                                    apk           
-docker-engine                                                                 25.0.1-r0                                    apk           
+docker-engine                                                                 25.0.2-r0                                    apk           
 e2fsprogs                                                                     1.47.0-r5                                    apk           
 e2fsprogs-extra                                                               1.47.0-r5                                    apk           
 e2fsprogs-libs                                                                1.47.0-r5                                    apk           
@@ -224,7 +224,7 @@ github.com/mitchellh/go-wordwrap                                              v0
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                       go-module     
 github.com/mitchellh/mapstructure                                             v1.5.0                                       go-module     
 github.com/mitchellh/reflectwalk                                              v1.0.2                                       go-module     
-github.com/moby/buildkit                                                      v0.12.5-0.20231208203051-3b6880d2a00f        go-module     
+github.com/moby/buildkit                                                      v0.12.5                                      go-module     
 github.com/moby/buildkit                                                      v0.13.0-beta1.0.20231023114302-d5c1d785b042  go-module     
 github.com/moby/ipvs                                                          v1.1.0                                       go-module     
 github.com/moby/locker                                                        v1.0.1                                       go-module     
@@ -250,7 +250,7 @@ github.com/opencontainers/go-digest                                           v1
 github.com/opencontainers/image-spec                                          v1.1.0-rc2.0.20221005185240-3a7f492d3f1b     go-module     
 github.com/opencontainers/image-spec                                          v1.1.0-rc5                                   go-module     
 github.com/opencontainers/runc                                                (devel)                                      go-module     
-github.com/opencontainers/runc                                                v1.1.11                                      go-module     
+github.com/opencontainers/runc                                                v1.1.12                                      go-module     
 github.com/opencontainers/runc                                                v1.1.9                                       go-module     
 github.com/opencontainers/runtime-spec                                        v1.0.3-0.20210326190908-1c3f411f0417         go-module     
 github.com/opencontainers/runtime-spec                                        v1.1.0                                       go-module     
@@ -426,7 +426,7 @@ libbz2                                                                        1.
 libc-utils                                                                    0.7.2-r5                                     apk           
 libcom_err                                                                    1.47.0-r5                                    apk           
 libcrypto3                                                                    3.1.4-r5                                     apk           
-libcurl                                                                       8.5.0-r1                                     apk           
+libcurl                                                                       8.6.0-r0                                     apk           
 libedit                                                                       20230828.3.1-r4                              apk           
 libexpat                                                                      2.5.0-r2                                     apk           
 libffi                                                                        3.4.4-r3                                     apk           
@@ -489,7 +489,7 @@ stdlib                                                                        go
 tags.cncf.io/container-device-interface                                       v0.6.2                                       go-module     
 tags.cncf.io/container-device-interface/specs-go                              v0.6.0                                       go-module     
 tini-static                                                                   0.19.0-r2                                    apk           
-tzdata                                                                        2023d-r0                                     apk           
+tzdata                                                                        2024a-r0                                     apk           
 userspace-rcu                                                                 0.14.0-r2                                    apk           
 utmps-libs                                                                    0.1.2.2-r0                                   apk           
 xfsprogs                                                                      6.5.0-r0                                     apk           
