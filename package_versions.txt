@@ -1,14 +1,14 @@
 NAME                                                                          VERSION                                             TYPE                           
-alpine-baselayout                                                             3.6.2-r0                                            apk                             
-alpine-baselayout-data                                                        3.6.2-r0                                            apk                             
+alpine-baselayout                                                             3.6.3-r0                                            apk                             
+alpine-baselayout-data                                                        3.6.3-r0                                            apk                             
 alpine-keys                                                                   2.4-r1                                              apk                             
 alsa-lib                                                                      1.2.11-r0                                           apk                             
-apk-tools                                                                     2.14.1-r0                                           apk                             
+apk-tools                                                                     2.14.1-r1                                           apk                             
 bash                                                                          5.2.26-r0                                           apk                             
 brotli-libs                                                                   1.1.0-r1                                            apk                             
-btrfs-progs                                                                   6.7.1-r0                                            apk                             
-busybox                                                                       1.36.1-r21                                          apk                             
-busybox-binsh                                                                 1.36.1-r21                                          apk                             
+btrfs-progs                                                                   6.8-r0                                              apk                             
+busybox                                                                       1.36.1-r24                                          apk                             
+busybox-binsh                                                                 1.36.1-r24                                          apk                             
 c-ares                                                                        1.27.0-r0                                           apk                             
 ca-certificates                                                               20240226-r0                                         apk                             
 ca-certificates-bundle                                                        20240226-r0                                         apk                             
@@ -17,11 +17,11 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v0.5.2                                              go-module                       
 code.cloudfoundry.org/clock                                                   v1.1.0                                              go-module                       
 containerd                                                                    1.7.14-r0                                           apk                             
-coreutils                                                                     9.4-r2                                              apk                             
-coreutils-env                                                                 9.4-r2                                              apk                             
-coreutils-fmt                                                                 9.4-r2                                              apk                             
-coreutils-sha512sum                                                           9.4-r2                                              apk                             
-curl                                                                          8.6.0-r0                                            apk                             
+coreutils                                                                     9.5-r0                                              apk                             
+coreutils-env                                                                 9.5-r0                                              apk                             
+coreutils-fmt                                                                 9.5-r0                                              apk                             
+coreutils-sha512sum                                                           9.5-r0                                              apk                             
+curl                                                                          8.7.1-r0                                            apk                             
 dario.cat/mergo                                                               v1.0.0                                              go-module     (+2 duplicates)   
 docker                                                                        26.0.0-r0                                           apk                             
 docker-cli                                                                    26.0.0-r0                                           apk                             
@@ -468,12 +468,12 @@ libbsd                                                                        0.
 libbz2                                                                        1.0.8-r6                                            apk                             
 libcom_err                                                                    1.47.0-r5                                           apk                             
 libcrypto3                                                                    3.2.1-r1                                            apk                             
-libcurl                                                                       8.6.0-r0                                            apk                             
+libcurl                                                                       8.7.1-r0                                            apk                             
 libedit                                                                       20230828.3.1-r4                                     apk                             
 libexpat                                                                      2.6.2-r0                                            apk                             
 libffi                                                                        3.4.6-r0                                            apk                             
 libidn2                                                                       2.3.7-r0                                            apk                             
-libintl                                                                       0.22.4-r0                                           apk                             
+libintl                                                                       0.22.5-r0                                           apk                             
 libjpeg-turbo                                                                 3.0.2-r0                                            apk                             
 libmd                                                                         1.1.0-r0                                            apk                             
 libmnl                                                                        1.0.5-r2                                            apk                             
@@ -527,7 +527,7 @@ sigs.k8s.io/structured-merge-diff/v4                                          v4
 sigs.k8s.io/structured-merge-diff/v4                                          v4.4.1                                              go-module                       
 sigs.k8s.io/yaml                                                              v1.3.0                                              go-module     (+3 duplicates)   
 skalibs                                                                       2.14.1.1-r0                                         apk                             
-ssl_client                                                                    1.36.1-r21                                          apk                             
+ssl_client                                                                    1.36.1-r24                                          apk                             
 stdlib                                                                        go1.22.1                                            go-module     (+10 duplicates)  
 tags.cncf.io/container-device-interface                                       v0.6.2                                              go-module     (+2 duplicates)   
 tags.cncf.io/container-device-interface/specs-go                              v0.6.0                                              go-module     (+1 duplicate)    
@@ -536,8 +536,8 @@ tzdata                                                                        20
 userspace-rcu                                                                 0.14.0-r2                                           apk                             
 utmps-libs                                                                    0.1.2.2-r0                                          apk                             
 xfsprogs                                                                      6.6.0-r0                                            apk                             
-xz                                                                            5.6.1-r1                                            apk                             
-xz-libs                                                                       5.6.1-r1                                            apk                             
+xz                                                                            5.6.1-r2                                            apk                             
+xz-libs                                                                       5.6.1-r2                                            apk                             
 yq                                                                            4.43.1-r0                                           apk                             
 zlib                                                                          1.3.1-r0                                            apk                             
 zstd-libs                                                                     1.5.6-r0                                            apk                             
