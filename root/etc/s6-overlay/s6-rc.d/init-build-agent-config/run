@@ -99,7 +99,7 @@ find /run /var/run -iname 'docker*.pid' -delete || :
 
 # create docker group and add abc to it
 groupadd -f docker
-if ! id -nG "$(id -nu "${PUID:-911}")" | grep -q "docker"; then 
+if ! id -nG "$(id -nu "${PUID:-911}")" | grep -q "docker"; then
     usermod -aG docker "$(id -nu "${PUID:-911}")"
 fi
 
