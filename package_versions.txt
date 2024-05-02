@@ -25,11 +25,11 @@ coreutils-fmt                                                                 9.
 coreutils-sha512sum                                                           9.5-r1                                              apk                            
 curl                                                                          8.7.1-r0                                            apk                            
 dario.cat/mergo                                                               v1.0.0                                              go-module     (+2 duplicates)  
-docker                                                                        26.1.0-r0                                           apk                            
-docker-cli                                                                    26.1.0-r0                                           apk                            
+docker                                                                        26.1.1-r0                                           apk                            
+docker-cli                                                                    26.1.1-r0                                           apk                            
 docker-cli-buildx                                                             0.14.0-r0                                           apk                            
 docker-cli-compose                                                            2.27.0-r0                                           apk                            
-docker-engine                                                                 26.1.0-r0                                           apk                            
+docker-engine                                                                 26.1.1-r0                                           apk                            
 e2fsprogs                                                                     1.47.0-r5                                           apk                            
 e2fsprogs-extra                                                               1.47.0-r5                                           apk                            
 e2fsprogs-libs                                                                1.47.0-r5                                           apk                            
@@ -38,8 +38,8 @@ findutils                                                                     4.
 freetype                                                                      2.13.2-r0                                           apk                            
 gdbm                                                                          1.23-r1                                             apk                            
 giflib                                                                        5.2.2-r0                                            apk                            
-git                                                                           2.44.0-r2                                           apk                            
-git-init-template                                                             2.44.0-r2                                           apk                            
+git                                                                           2.45.0-r0                                           apk                            
+git-init-template                                                             2.45.0-r0                                           apk                            
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module                      
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                  go-module                      
 github.com/Masterminds/semver/v3                                              v3.2.1                                              go-module     (+1 duplicate)   
@@ -89,8 +89,8 @@ github.com/containerd/cgroups/v3                                              v3
 github.com/containerd/console                                                 v1.0.3                                              go-module     (+4 duplicates)  
 github.com/containerd/console                                                 v1.0.4                                              go-module     (+2 duplicates)  
 github.com/containerd/containerd                                              (devel)                                             go-module     (+1 duplicate)   
-github.com/containerd/containerd                                              v1.7.15                                             go-module     (+2 duplicates)  
-github.com/containerd/containerd                                              v1.7.16                                             go-module     (+1 duplicate)   
+github.com/containerd/containerd                                              v1.7.15                                             go-module     (+1 duplicate)   
+github.com/containerd/containerd                                              v1.7.16                                             go-module     (+2 duplicates)  
 github.com/containerd/continuity                                              v0.4.2                                              go-module     (+3 duplicates)  
 github.com/containerd/continuity                                              v0.4.3                                              go-module     (+2 duplicates)  
 github.com/containerd/fifo                                                    v1.1.0                                              go-module     (+4 duplicates)  
@@ -123,12 +123,12 @@ github.com/docker/buildx                                                      v0
 github.com/docker/cli                                                         v26.0.1-0.20240410153731-b6c552212837+incompatible  go-module                      
 github.com/docker/cli                                                         v26.1.0+incompatible                                go-module                      
 github.com/docker/cli-docs-tool                                               v0.7.0                                              go-module                      
-github.com/docker/cli/cmd/docker                                              26.1.0                                              go-module                      
+github.com/docker/cli/cmd/docker                                              26.1.1                                              go-module                      
 github.com/docker/compose/v2                                                  v2.27.0                                             go-module                      
 github.com/docker/distribution                                                v2.8.2+incompatible                                 go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                                 go-module     (+1 duplicate)   
 github.com/docker/docker                                                      (devel)                                             go-module                      
-github.com/docker/docker                                                      26.1.0                                              go-module                      
+github.com/docker/docker                                                      26.1.1                                              go-module                      
 github.com/docker/docker                                                      v26.0.0+incompatible                                go-module                      
 github.com/docker/docker                                                      v26.1.0+incompatible                                go-module                      
 github.com/docker/docker-credential-helpers                                   v0.8.0                                              go-module     (+1 duplicate)   
@@ -225,7 +225,8 @@ github.com/mitchellh/hashstructure/v2                                         v2
 github.com/mitchellh/mapstructure                                             v1.5.0                                              go-module     (+1 duplicate)   
 github.com/mitchellh/reflectwalk                                              v1.0.2                                              go-module     (+2 duplicates)  
 github.com/moby/buildkit                                                      v0.13.0-rc3.0.20240417151852-71f99c52a669           go-module                      
-github.com/moby/buildkit                                                      v0.13.1                                             go-module     (+1 duplicate)   
+github.com/moby/buildkit                                                      v0.13.1                                             go-module                      
+github.com/moby/buildkit                                                      v0.13.2                                             go-module                      
 github.com/moby/docker-image-spec                                             v1.3.1                                              go-module     (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                              go-module                      
 github.com/moby/locker                                                        v1.0.1                                              go-module     (+3 duplicates)  
@@ -297,7 +298,8 @@ github.com/tchap/go-patricia/v2                                               v2
 github.com/theupdateframework/notary                                          v0.7.0                                              go-module     (+1 duplicate)   
 github.com/tilt-dev/fsnotify                                                  v1.4.8-0.20220602155310-fff9c274a375                go-module                      
 github.com/tinylib/msgp                                                       v1.1.8                                              go-module                      
-github.com/tonistiigi/fsutil                                                  v0.0.0-20240301111122-7525a1af2bb5                  go-module     (+2 duplicates)  
+github.com/tonistiigi/fsutil                                                  v0.0.0-20240301111122-7525a1af2bb5                  go-module     (+1 duplicate)   
+github.com/tonistiigi/fsutil                                                  v0.0.0-20240424095704-91a3fc46842c                  go-module                      
 github.com/tonistiigi/go-actions-cache                                        v0.0.0-20240227172821-a0b64f338598                  go-module                      
 github.com/tonistiigi/go-archvariant                                          v1.0.0                                              go-module                      
 github.com/tonistiigi/units                                                   v0.0.0-20180711220420-6950e57a87ea                  go-module     (+2 duplicates)  
@@ -508,8 +510,7 @@ sqlite-libs                                                                   3.
 ssl_client                                                                    1.36.1-r26                                          apk                            
 stdlib                                                                        go1.22.2                                            go-module     (+9 duplicates)  
 tags.cncf.io/container-device-interface                                       v0.6.2                                              go-module                      
-tags.cncf.io/container-device-interface                                       v0.7.1                                              go-module                      
-tags.cncf.io/container-device-interface                                       v0.7.2                                              go-module                      
+tags.cncf.io/container-device-interface                                       v0.7.2                                              go-module     (+1 duplicate)   
 tags.cncf.io/container-device-interface/specs-go                              v0.7.0                                              go-module     (+1 duplicate)   
 tini-static                                                                   0.19.0-r3                                           apk                            
 tomlkit                                                                       0.12.3                                              python                         
