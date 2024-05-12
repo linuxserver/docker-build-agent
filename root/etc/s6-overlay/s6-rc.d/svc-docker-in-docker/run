@@ -25,12 +25,11 @@ if [[ -f /sys/fs/cgroup/cgroup.controllers ]]; then
 	xargs -rn1 < /sys/fs/cgroup/cgroup.procs > /sys/fs/cgroup/init/cgroup.procs || :
 	# enable controllers
 	sed -e 's/ / +/g' -e 's/^/+/' < /sys/fs/cgroup/cgroup.controllers \
-		> /sys/fs/cgroup/cgroup.subtree_control || : 
+		> /sys/fs/cgroup/cgroup.subtree_control || :
 fi
 
 mount --make-rshared /
 
 exec 2>&1 \
     s6-notifyoncheck -d -n 300 -w 1000 -c "docker version" \
-    /usr/bin/dockerd \
-    --data-root "/config/var/lib/docker"
+    /usr/bin/dockerd --data-root "/config/var/lib/docker" --experimental

@@ -3,7 +3,8 @@
 
 # create folders
 mkdir -p \
-    /config/{.ssh,ssh_host_keys,logs/openssh,logs/dockerd,var/lib/docker,.docker}
+    /etc/docker \
+    /config/{.ssh,ssh_host_keys,logs/openssh,logs/dockerd,var/lib/docker}
 
 USER_NAME=${USER_NAME:-jenkins}
 echo "User name is set to $USER_NAME"
@@ -106,9 +107,23 @@ fi
 HOME=/config git config --global user.email "ci@linuxserver.io"
 HOME=/config git config --global user.name "LinuxServer-CI"
 
-if [[ ! -f "/config/.docker/config.json" ]]; then
-    echo '{"experimental": "enabled"}' > /config/.docker/config.json
+# Remove old Docker image store
+if [[ -d "/config/var/lib/docker/overlay2/" ]]; then
+    rm -rf "/config/var/lib/docker/overlay2/"
 fi
+
+if [[ -d "/config/var/lib/docker/image/" ]]; then
+    rm -rf "/config/var/lib/docker/image/"
+fi
+
+# Enable containerd image store
+cat <<EOF >/etc/docker/daemon.json
+{
+    "features": {
+        "containerd-snapshotter": true
+    }
+}
+EOF
 
 # permissions
 lsiown -R "${USER_NAME}":"${USER_NAME}" \
