@@ -31,7 +31,7 @@ RUN \
   echo "**** setup openssh environment ****" && \
   sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config && \
   usermod --shell /bin/bash abc && \
-  echo "Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}" > /build_version && \
+  printf "Linuxserver.io version:- ${VERSION}\nBuild-date:- ${BUILD_DATE}" > /build_version && \
   rm -rf \
     /tmp/*
 
