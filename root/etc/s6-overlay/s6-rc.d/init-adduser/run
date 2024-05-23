@@ -31,8 +31,13 @@ GID/UID
 echo "
 User UID:    $(id -u "${USER_NAME}")
 User GID:    $(id -g "${USER_NAME}")
+───────────────────────────────────────"
+if [[ -f /build_version ]]; then
+    cat /build_version
+    echo '
 ───────────────────────────────────────
-"
+    '
+fi
 
 lsiown "${USER_NAME}":"${USER_NAME}" /app
 lsiown "${USER_NAME}":"${USER_NAME}" /config
