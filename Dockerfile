@@ -21,7 +21,7 @@ RUN \
     git \
     ip6tables \
     iptables \
-    openjdk11-jre \
+    openjdk17-jre \
     openssh-client \
     openssh-server-pam \
     openssh-sftp-server \
