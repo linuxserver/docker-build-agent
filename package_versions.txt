@@ -1,15 +1,15 @@
 NAME                                                                          VERSION                                 TYPE                           
-alpine-baselayout                                                             3.6.5-r0                                apk                             
-alpine-baselayout-data                                                        3.6.5-r0                                apk                             
+alpine-baselayout                                                             3.6.6-r0                                apk                             
+alpine-baselayout-data                                                        3.6.6-r0                                apk                             
 alpine-keys                                                                   2.4-r1                                  apk                             
 alsa-lib                                                                      1.2.12-r0                               apk                             
 apk-tools                                                                     2.14.4-r2                               apk                             
 bash                                                                          5.2.26-r0                               apk                             
 brotli-libs                                                                   1.1.0-r2                                apk                             
-btrfs-progs                                                                   6.9.2-r0                                apk                             
+btrfs-progs                                                                   6.10-r0                                 apk                             
 busybox                                                                       1.36.1-r31                              apk                             
 busybox-binsh                                                                 1.36.1-r31                              apk                             
-c-ares                                                                        1.32.2-r0                               apk                             
+c-ares                                                                        1.32.3-r0                               apk                             
 ca-certificates                                                               20240705-r0                             apk                             
 ca-certificates-bundle                                                        20240705-r0                             apk                             
 catatonit                                                                     0.2.0-r0                                apk                             
@@ -22,22 +22,22 @@ coreutils                                                                     9.
 coreutils-env                                                                 9.5-r1                                  apk                             
 coreutils-fmt                                                                 9.5-r1                                  apk                             
 coreutils-sha512sum                                                           9.5-r1                                  apk                             
-curl                                                                          8.8.0-r1                                apk                             
+curl                                                                          8.9.0-r0                                apk                             
 dario.cat/mergo                                                               v1.0.0                                  go-module     (+2 duplicates)   
 docker                                                                        27.1.1-r0                               apk                             
 docker-cli                                                                    27.1.1-r0                               apk                             
-docker-cli-buildx                                                             0.16.1-r0                               apk                             
+docker-cli-buildx                                                             0.16.2-r0                               apk                             
 docker-cli-compose                                                            2.29.1-r0                               apk                             
 docker-engine                                                                 27.1.1-r0                               apk                             
-e2fsprogs                                                                     1.47.0-r5                               apk                             
-e2fsprogs-extra                                                               1.47.0-r5                               apk                             
-e2fsprogs-libs                                                                1.47.0-r5                               apk                             
+e2fsprogs                                                                     1.47.1-r0                               apk                             
+e2fsprogs-extra                                                               1.47.1-r0                               apk                             
+e2fsprogs-libs                                                                1.47.1-r0                               apk                             
 eudev-libs                                                                    3.2.14-r2                               apk                             
 findutils                                                                     4.10.0-r0                               apk                             
 freetype                                                                      2.13.2-r0                               apk                             
 giflib                                                                        5.2.2-r0                                apk                             
-git                                                                           2.45.2-r1                               apk                             
-git-init-template                                                             2.45.2-r1                               apk                             
+git                                                                           2.46.0-r0                               apk                             
+git-init-template                                                             2.46.0-r0                               apk                             
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                  go-module                       
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0      go-module                       
 github.com/Masterminds/semver/v3                                              v3.2.1                                  go-module     (+1 duplicate)    
@@ -124,7 +124,7 @@ github.com/deckarep/golang-set/v2                                             v2
 github.com/dimchansky/utfbom                                                  v1.1.1                                  go-module     (+1 duplicate)    
 github.com/distribution/reference                                             v0.6.0                                  go-module     (+3 duplicates)   
 github.com/docker/buildx                                                      v0.16.0                                 go-module                       
-github.com/docker/buildx                                                      v0.16.1                                 go-module                       
+github.com/docker/buildx                                                      v0.16.2                                 go-module                       
 github.com/docker/cli                                                         v27.0.3+incompatible                    go-module                       
 github.com/docker/cli                                                         v27.1.0+incompatible                    go-module                       
 github.com/docker/cli-docs-tool                                               v0.8.0                                  go-module     (+1 duplicate)    
@@ -169,7 +169,8 @@ github.com/goccy/go-json                                                      v0
 github.com/goccy/go-yaml                                                      v1.11.3                                 go-module                       
 github.com/godbus/dbus/v5                                                     v5.0.6                                  go-module                       
 github.com/godbus/dbus/v5                                                     v5.1.0                                  go-module     (+3 duplicates)   
-github.com/gofrs/flock                                                        v0.12.0                                 go-module     (+2 duplicates)   
+github.com/gofrs/flock                                                        v0.12.0                                 go-module     (+1 duplicate)    
+github.com/gofrs/flock                                                        v0.12.1                                 go-module                       
 github.com/gogo/googleapis                                                    v1.4.1                                  go-module     (+2 duplicates)   
 github.com/gogo/protobuf                                                      v1.3.2                                  go-module     (+6 duplicates)   
 github.com/golang-jwt/jwt/v4                                                  v4.5.0                                  go-module                       
@@ -240,7 +241,8 @@ github.com/mitchellh/go-wordwrap                                              v0
 github.com/mitchellh/hashstructure/v2                                         v2.0.2                                  go-module     (+2 duplicates)   
 github.com/mitchellh/mapstructure                                             v1.5.0                                  go-module                       
 github.com/mitchellh/reflectwalk                                              v1.0.2                                  go-module                       
-github.com/moby/buildkit                                                      v0.15.0                                 go-module     (+2 duplicates)   
+github.com/moby/buildkit                                                      v0.15.0                                 go-module     (+1 duplicate)    
+github.com/moby/buildkit                                                      v0.15.1                                 go-module                       
 github.com/moby/docker-image-spec                                             v1.3.1                                  go-module     (+2 duplicates)   
 github.com/moby/ipvs                                                          v1.1.0                                  go-module                       
 github.com/moby/locker                                                        v1.0.1                                  go-module     (+3 duplicates)   
@@ -380,7 +382,8 @@ golang.org/x/sync                                                             v0
 golang.org/x/sync                                                             v0.7.0                                  go-module     (+2 duplicates)   
 golang.org/x/sys                                                              v0.18.0                                 go-module     (+3 duplicates)   
 golang.org/x/sys                                                              v0.19.0                                 go-module                       
-golang.org/x/sys                                                              v0.21.0                                 go-module     (+4 duplicates)   
+golang.org/x/sys                                                              v0.21.0                                 go-module     (+3 duplicates)   
+golang.org/x/sys                                                              v0.22.0                                 go-module                       
 golang.org/x/term                                                             v0.18.0                                 go-module                       
 golang.org/x/term                                                             v0.20.0                                 go-module     (+1 duplicate)    
 golang.org/x/text                                                             v0.14.0                                 go-module     (+1 duplicate)    
@@ -431,9 +434,9 @@ libattr                                                                       2.
 libblkid                                                                      2.40.2-r0                               apk                             
 libbsd                                                                        0.12.2-r0                               apk                             
 libbz2                                                                        1.0.8-r6                                apk                             
-libcom_err                                                                    1.47.0-r5                               apk                             
+libcom_err                                                                    1.47.1-r0                               apk                             
 libcrypto3                                                                    3.3.1-r3                                apk                             
-libcurl                                                                       8.8.0-r1                                apk                             
+libcurl                                                                       8.9.0-r0                                apk                             
 libeconf                                                                      0.6.3-r0                                apk                             
 libedit                                                                       20240517.3.1-r0                         apk                             
 libexpat                                                                      2.6.2-r0                                apk                             
@@ -444,7 +447,7 @@ libjpeg-turbo                                                                 3.
 libmd                                                                         1.1.0-r0                                apk                             
 libmnl                                                                        1.0.5-r2                                apk                             
 libncursesw                                                                   6.5_p20240601-r0                        apk                             
-libnftnl                                                                      1.2.6-r0                                apk                             
+libnftnl                                                                      1.2.7-r0                                apk                             
 libpng                                                                        1.6.43-r0                               apk                             
 libproc2                                                                      4.0.4-r0                                apk                             
 libpsl                                                                        0.21.5-r2                               apk                             
@@ -453,7 +456,7 @@ libssl3                                                                       3.
 libtasn1                                                                      4.19.0-r2                               apk                             
 libunistring                                                                  1.2-r0                                  apk                             
 libuuid                                                                       2.40.2-r0                               apk                             
-libx11                                                                        1.8.9-r1                                apk                             
+libx11                                                                        1.8.10-r0                               apk                             
 libxau                                                                        1.0.11-r4                               apk                             
 libxcb                                                                        1.16.1-r0                               apk                             
 libxdmcp                                                                      1.1.5-r1                                apk                             
