@@ -1,11 +1,9 @@
 #!/usr/bin/with-contenv bash
 
-if [[ $(uname -m) = "x86_64" ]]; then
-    echo "┌───────────────────────────────────────────────────────────────────────────────┐"
-    echo "│                  Make sure you enable you enable QEMU. Run:                   │"
-    echo "│                                                                               │"
-    echo "│     docker run --rm --privileged multiarch/qemu-user-static --reset -p yes    │"
-    echo "│                                                                               │"
-    echo "│                                  on the host                                  │"
-    echo "└───────────────────────────────────────────────────────────────────────────────┘"
-fi
+echo "┌─────────────────────────────────────────────────────────────────────────────────┐"
+echo "│                   Make sure you enable you enable QEMU. Run:                    │"
+echo "│                                                                                 │"
+echo "│ docker run --rm -it --privileged ghcr.io/linuxserver/qemu-static --reset -p yes │"
+echo "│                                                                                 │"
+echo "│                                   on the host                                   │"
+echo "└─────────────────────────────────────────────────────────────────────────────────┘"
