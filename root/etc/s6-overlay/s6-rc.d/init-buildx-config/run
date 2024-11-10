@@ -1,4 +1,7 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-docker buildx create --driver docker-container --name container >/dev/null 2>&1
+HOME=/config docker buildx create --driver docker-container --name container >/dev/null 2>&1
+
+USER_NAME=${USER_NAME:-jenkins}
+lsiown -R "${USER_NAME}:${USER_NAME}" /config/.docker
