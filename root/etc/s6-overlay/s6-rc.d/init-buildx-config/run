@@ -1,7 +1,12 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-HOME=/config docker buildx create --driver docker-container --name container >/dev/null 2>&1
+if ! HOME=/config docker buildx ls --format json | jq -e '. | select(.Name == "container")' >/dev/null 2>&1; then
+    HOME=/config docker buildx create --driver docker-container --name container --bootstrap >/dev/null 2>&1
+else
+    docker pull docker.io/moby/buildkit:buildx-stable-1
+    docker image prune -f >/dev/null 2>&1
+fi
 
 USER_NAME=${USER_NAME:-jenkins}
 lsiown -R "${USER_NAME}:${USER_NAME}" /config/.docker
