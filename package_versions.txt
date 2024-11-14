@@ -38,8 +38,8 @@ eudev-libs                                                                    3.
 findutils                                                                     4.10.0-r0                                           apk                            
 freetype                                                                      2.13.3-r0                                           apk                            
 giflib                                                                        5.2.2-r0                                            apk                            
-git                                                                           2.46.2-r0                                           apk                            
-git-init-template                                                             2.46.2-r0                                           apk                            
+git                                                                           2.47.0-r0                                           apk                            
+git-init-template                                                             2.47.0-r0                                           apk                            
 github.com/AlecAivazis/survey/v2                                              v2.3.7                                              go-module                      
 github.com/Graylog2/go-gelf                                                   v0.0.0-20191017102106-1550ee647df0                  go-module                      
 github.com/Masterminds/semver/v3                                              v3.2.1                                              go-module     (+1 duplicate)   
