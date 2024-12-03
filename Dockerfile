@@ -27,7 +27,7 @@ RUN \
     openssh-sftp-server \
     xfsprogs \
     xz \
-    yq && \
+    yq-go && \
   echo "**** setup openssh environment ****" && \
   sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config && \
   usermod --shell /bin/bash abc && \
