@@ -24,7 +24,7 @@ services:
     restart: unless-stopped
 ```
 
-For x86_64 machines, run `docker run --rm --privileged ghcr.io/linuxserver/qemu-static --reset -p yes` on the host to enable qemu before bringing any build agent containers up.
+For x86_64 machines, run `docker run --rm --privileged multiarch/qemu-user-static --reset -p yes` on the host to enable qemu before bringing any build agent containers up.
 
 - { date: "01.07.24:", desc: "Update JRE to 17." }
 - { date: "16.01.24:", desc: "Add yq." }
