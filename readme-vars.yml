@@ -5,6 +5,7 @@ unraid_template: false
 
 # project information
 project_name: build-agent
+project_categories: "Internal"
 full_custom_readme: |
   {% raw -%}
   # linuxserver/build-agent
