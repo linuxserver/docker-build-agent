@@ -26,6 +26,7 @@ services:
 
 For x86_64 machines, run `docker run --rm --privileged ghcr.io/linuxserver/qemu-static --reset -p yes` on the host to enable qemu before bringing any build agent containers up.
 
+- { date: "09.05.25:", desc: "Push riscv64 tag." }
 - { date: "02.04.25:", desc: "Update JRE to 21." }
 - { date: "01.07.24:", desc: "Update JRE to 17." }
 - { date: "16.01.24:", desc: "Add yq." }
