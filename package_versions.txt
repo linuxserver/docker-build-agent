@@ -5,14 +5,14 @@ alpine-baselayout-data                                                        3.
 alpine-keys                                                                   2.5-r0                                  apk                            
 alsa-lib                                                                      1.2.14-r0                               apk                            
 apk-tools                                                                     3.0.0_rc5_git20250613-r0                apk                            
-bash                                                                          5.2.37-r0                               apk                            
+bash                                                                          5.3.0-r0                                apk                            
 brotli-libs                                                                   1.1.0-r2                                apk                            
 btrfs-progs                                                                   6.15-r0                                 apk                            
 busybox                                                                       1.37.0-r19                              apk                            
 busybox-binsh                                                                 1.37.0-r19                              apk                            
 c-ares                                                                        1.34.5-r0                               apk                            
-ca-certificates                                                               20241121-r2                             apk                            
-ca-certificates-bundle                                                        20241121-r2                             apk                            
+ca-certificates                                                               20250619-r0                             apk                            
+ca-certificates-bundle                                                        20250619-r0                             apk                            
 catatonit                                                                     0.2.1-r0                                apk                            
 cloud.google.com/go/compute/metadata                                          v0.6.0                                  go-module                      
 cloud.google.com/go/logging                                                   v1.9.0                                  go-module                      
@@ -25,11 +25,11 @@ coreutils-fmt                                                                 9.
 coreutils-sha512sum                                                           9.7-r1                                  apk                            
 curl                                                                          8.14.1-r2                               apk                            
 dario.cat/mergo                                                               v1.0.1                                  go-module     (+2 duplicates)  
-docker                                                                        28.3.1-r1                               apk                            
-docker-cli                                                                    28.3.1-r1                               apk                            
+docker                                                                        28.3.2-r0                               apk                            
+docker-cli                                                                    28.3.2-r0                               apk                            
 docker-cli-buildx                                                             0.25.0-r1                               apk                            
-docker-cli-compose                                                            2.38.1-r1                               apk                            
-docker-engine                                                                 28.3.1-r1                               apk                            
+docker-cli-compose                                                            2.38.2-r0                               apk                            
+docker-engine                                                                 28.3.2-r0                               apk                            
 e2fsprogs                                                                     1.47.2-r3                               apk                            
 e2fsprogs-extra                                                               1.47.2-r3                               apk                            
 e2fsprogs-libs                                                                1.47.2-r3                               apk                            
@@ -123,14 +123,14 @@ github.com/distribution/reference                                             v0
 github.com/docker/buildx                                                      UNKNOWN                                 go-module                      
 github.com/docker/buildx                                                      v0.25.0                                 go-module                      
 github.com/docker/cli                                                         v28.2.2+incompatible                    go-module                      
-github.com/docker/cli                                                         v28.3.0+incompatible                    go-module                      
+github.com/docker/cli                                                         v28.3.1+incompatible                    go-module                      
 github.com/docker/cli-docs-tool                                               v0.10.0                                 go-module     (+1 duplicate)   
 github.com/docker/cli/cmd/docker                                              UNKNOWN                                 go-module                      
 github.com/docker/compose/v2                                                  UNKNOWN                                 go-module                      
 github.com/docker/distribution                                                v2.8.3+incompatible                     go-module     (+1 duplicate)   
 github.com/docker/docker                                                      UNKNOWN                                 go-module     (+1 duplicate)   
 github.com/docker/docker                                                      v28.2.2+incompatible                    go-module                      
-github.com/docker/docker                                                      v28.3.0+incompatible                    go-module                      
+github.com/docker/docker                                                      v28.3.1+incompatible                    go-module                      
 github.com/docker/docker-credential-helpers                                   v0.9.3                                  go-module     (+1 duplicate)   
 github.com/docker/go                                                          v1.5.1-1.0.20160303222718-d30aec9fd63c  go-module                      
 github.com/docker/go-connections                                              v0.5.0                                  go-module     (+2 duplicates)  
@@ -157,7 +157,8 @@ github.com/go-logr/stdr                                                       v1
 github.com/go-openapi/jsonpointer                                             v0.21.0                                 go-module     (+1 duplicate)   
 github.com/go-openapi/jsonreference                                           v0.20.2                                 go-module     (+1 duplicate)   
 github.com/go-openapi/swag                                                    v0.23.0                                 go-module     (+1 duplicate)   
-github.com/go-viper/mapstructure/v2                                           v2.0.0                                  go-module     (+1 duplicate)   
+github.com/go-viper/mapstructure/v2                                           v2.0.0                                  go-module                      
+github.com/go-viper/mapstructure/v2                                           v2.3.0                                  go-module                      
 github.com/goccy/go-json                                                      v0.10.5                                 go-module                      
 github.com/goccy/go-yaml                                                      v1.18.0                                 go-module                      
 github.com/godbus/dbus/v5                                                     v5.1.0                                  go-module     (+3 duplicates)  
@@ -229,8 +230,7 @@ github.com/mitchellh/hashstructure/v2                                         v2
 github.com/mitchellh/mapstructure                                             v1.5.0                                  go-module                      
 github.com/mitchellh/reflectwalk                                              v1.0.2                                  go-module                      
 github.com/moby/buildkit                                                      v0.23.0                                 go-module                      
-github.com/moby/buildkit                                                      v0.23.1                                 go-module                      
-github.com/moby/buildkit                                                      v0.23.2                                 go-module                      
+github.com/moby/buildkit                                                      v0.23.2                                 go-module     (+1 duplicate)   
 github.com/moby/docker-image-spec                                             v1.3.1                                  go-module     (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.1.0                                  go-module     (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                  go-module                      
@@ -417,7 +417,7 @@ libcom_err                                                                    1.
 libcrypto3                                                                    3.5.1-r0                                apk                            
 libcurl                                                                       8.14.1-r2                               apk                            
 libeconf                                                                      0.7.9-r0                                apk                            
-libedit                                                                       20250104.3.1-r1                         apk                            
+libedit                                                                       20250104.3.1-r2                         apk                            
 libexpat                                                                      2.7.1-r0                                apk                            
 libffi                                                                        3.5.1-r0                                apk                            
 libidn2                                                                       2.3.8-r0                                apk                            
@@ -446,7 +446,7 @@ libxtables                                                                    1.
 libxtst                                                                       1.2.5-r0                                apk                            
 linux-pam                                                                     1.7.0-r4                                apk                            
 lzo                                                                           2.10-r5                                 apk                            
-musl                                                                          1.2.5-r13                               apk                            
+musl                                                                          1.2.5-r14                               apk                            
 musl-utils                                                                    1.2.5-r13                               apk                            
 ncurses-terminfo-base                                                         6.5_p20250705-r0                        apk                            
 netcat-openbsd                                                                1.229.1-r0                              apk                            
@@ -464,7 +464,7 @@ p11-kit                                                                       0.
 p11-kit-trust                                                                 0.25.5-r2                               apk                            
 pcre2                                                                         10.43-r1                                apk                            
 procps-ng                                                                     4.0.4-r3                                apk                            
-readline                                                                      8.3.0-r0                                apk                            
+readline                                                                      8.3.1-r0                                apk                            
 resenje.org/singleflight                                                      v0.4.3                                  go-module                      
 runc                                                                          1.3.0-r2                                apk                            
 scanelf                                                                       1.3.8-r1                                apk                            
