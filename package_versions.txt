@@ -8,8 +8,8 @@ apk-tools                                                                     3.
 bash                                                                          5.3.3-r1                                   apk                            
 brotli-libs                                                                   1.1.0-r2                                   apk                            
 btrfs-progs                                                                   6.16-r0                                    apk                            
-busybox                                                                       1.37.0-r22                                 apk                            
-busybox-binsh                                                                 1.37.0-r22                                 apk                            
+busybox                                                                       1.37.0-r23                                 apk                            
+busybox-binsh                                                                 1.37.0-r23                                 apk                            
 c-ares                                                                        1.34.5-r0                                  apk                            
 ca-certificates                                                               20250619-r0                                apk                            
 ca-certificates-bundle                                                        20250619-r0                                apk                            
@@ -432,7 +432,7 @@ libexpat                                                                      2.
 libffi                                                                        3.5.2-r0                                   apk                            
 libidn2                                                                       2.3.8-r0                                   apk                            
 libintl                                                                       0.24.1-r1                                  apk                            
-libjpeg-turbo                                                                 3.1.1-r0                                   apk                            
+libjpeg-turbo                                                                 3.1.2-r0                                   apk                            
 libmd                                                                         1.1.0-r0                                   apk                            
 libmnl                                                                        1.0.5-r2                                   apk                            
 libncursesw                                                                   6.5_p20250816-r0                           apk                            
@@ -483,7 +483,7 @@ sigs.k8s.io/json                                                              v0
 sigs.k8s.io/structured-merge-diff/v4                                          v4.4.2                                     go-module     (+2 duplicates)  
 sigs.k8s.io/yaml                                                              v1.4.0                                     go-module     (+3 duplicates)  
 skalibs-libs                                                                  2.14.4.0-r0                                apk                            
-ssl_client                                                                    1.37.0-r22                                 apk                            
+ssl_client                                                                    1.37.0-r23                                 apk                            
 stdlib                                                                        go1.24.6                                   go-module     (+7 duplicates)  
 stdlib                                                                        go1.25.0                                   go-module                      
 tags.cncf.io/container-device-interface                                       v1.0.1                                     go-module     (+2 duplicates)  
