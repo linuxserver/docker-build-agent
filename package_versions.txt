@@ -519,7 +519,7 @@ libbz2                                                                        1.
 libcom_err                                                                    1.47.3-r0                               apk                            
 libcrypto3                                                                    3.5.4-r0                                apk                            
 libcurl                                                                       8.18.0-r0                               apk                            
-libeconf                                                                      0.8.0-r1                                apk                            
+libeconf                                                                      0.8.3-r0                                apk                            
 libedit                                                                       20251016.3.1-r0                         apk                            
 libexpat                                                                      2.7.3-r0                                apk                            
 libffi                                                                        3.5.2-r0                                apk                            
