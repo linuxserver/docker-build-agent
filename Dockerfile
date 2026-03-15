@@ -9,6 +9,8 @@ ARG BUILD_AGENT_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thespad"
 
+ENV HOME=/config
+
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
