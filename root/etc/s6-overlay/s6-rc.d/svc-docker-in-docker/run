@@ -32,4 +32,4 @@ mount --make-rshared /
 
 exec 2>&1 \
     s6-notifyoncheck -d -n 300 -w 1000 -c "docker version" \
-    /usr/bin/dockerd --data-root "/config/var/lib/docker" --experimental
+    /usr/bin/dockerd --data-root "/config/var/lib/docker"
