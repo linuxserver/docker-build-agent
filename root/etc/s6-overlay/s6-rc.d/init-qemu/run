@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 echo "┌─────────────────────────────────────────────────────────────────────────────────┐"
-echo "│                   Make sure you enable you enable QEMU. Run:                    │"
+echo "│                         Make sure you enable QEMU. Run:                         │"
 echo "│                                                                                 │"
 echo "│ docker run --rm -it --privileged ghcr.io/linuxserver/qemu-static --reset -p yes │"
 echo "│                                                                                 │"
