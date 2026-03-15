@@ -2,8 +2,8 @@
 # shellcheck shell=bash
 
 docker pull docker.io/moby/buildkit:buildx-stable-1
-HOME=/config docker buildx rm container >/dev/null 2>&1
-HOME=/config docker buildx create --driver docker-container --name container --bootstrap >/dev/null 2>&1
+docker buildx rm container >/dev/null 2>&1
+docker buildx create --driver docker-container --name container --bootstrap >/dev/null 2>&1
 docker image prune -f >/dev/null 2>&1
 
 USER_NAME=${USER_NAME:-jenkins}

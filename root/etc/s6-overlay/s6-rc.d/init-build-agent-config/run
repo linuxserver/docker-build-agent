@@ -104,8 +104,8 @@ if ! id -nG "$(id -nu "${PUID:-911}")" | grep -q "docker"; then
     usermod -aG docker "$(id -nu "${PUID:-911}")"
 fi
 
-HOME=/config git config --global user.email "ci@linuxserver.io"
-HOME=/config git config --global user.name "LinuxServer-CI"
+git config --global user.email "ci@linuxserver.io"
+git config --global user.name "LinuxServer-CI"
 
 # permissions
 lsiown -R "${USER_NAME}":"${USER_NAME}" \
