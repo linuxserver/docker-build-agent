@@ -107,24 +107,6 @@ fi
 HOME=/config git config --global user.email "ci@linuxserver.io"
 HOME=/config git config --global user.name "LinuxServer-CI"
 
-# Remove old Docker image store
-if [[ -d "/config/var/lib/docker/overlay2/" ]]; then
-    rm -rf "/config/var/lib/docker/overlay2/"
-fi
-
-if [[ -d "/config/var/lib/docker/image/" ]]; then
-    rm -rf "/config/var/lib/docker/image/"
-fi
-
-# Enable containerd image store
-cat <<EOF >/etc/docker/daemon.json
-{
-    "features": {
-        "containerd-snapshotter": true
-    }
-}
-EOF
-
 # permissions
 lsiown -R "${USER_NAME}":"${USER_NAME}" \
     /config

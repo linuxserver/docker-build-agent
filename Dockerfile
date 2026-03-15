@@ -12,12 +12,14 @@ LABEL maintainer="thespad"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    alpine-release \
     btrfs-progs \
     docker \
     docker-cli-buildx \
     docker-cli-compose \
     e2fsprogs \
     e2fsprogs-extra \
+    erofs-utils \
     git \
     ip6tables \
     iptables \
