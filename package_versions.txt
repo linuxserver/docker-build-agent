@@ -33,9 +33,9 @@ docker-cli                                                                    29
 docker-cli-buildx                                                             0.32.1-r0                              apk                            
 docker-cli-compose                                                            5.1.0-r1                               apk                            
 docker-engine                                                                 29.3.0-r0                              apk                            
-e2fsprogs                                                                     1.47.3-r0                              apk                            
-e2fsprogs-extra                                                               1.47.3-r0                              apk                            
-e2fsprogs-libs                                                                1.47.3-r0                              apk                            
+e2fsprogs                                                                     1.47.4-r0                              apk                            
+e2fsprogs-extra                                                               1.47.4-r0                              apk                            
+e2fsprogs-libs                                                                1.47.4-r0                              apk                            
 erofs-utils                                                                   1.9.1-r0                               apk                            
 eudev-libs                                                                    3.2.14-r6                              apk                            
 findutils                                                                     4.10.0-r0                              apk                            
@@ -521,12 +521,12 @@ libattr                                                                       2.
 libblkid                                                                      2.41.3-r0                              apk                            
 libbsd                                                                        0.12.2-r0                              apk                            
 libbz2                                                                        1.0.8-r6                               apk                            
-libcom_err                                                                    1.47.3-r0                              apk                            
-libcrypto3                                                                    3.5.5-r0                               apk                            
+libcom_err                                                                    1.47.4-r0                              apk                            
+libcrypto3                                                                    3.5.5-r1                               apk                            
 libcurl                                                                       8.19.0-r0                              apk                            
 libeconf                                                                      0.8.3-r0                               apk                            
 libedit                                                                       20251016.3.1-r1                        apk                            
-libexpat                                                                      2.7.4-r0                               apk                            
+libexpat                                                                      2.7.5-r0                               apk                            
 libffi                                                                        3.5.2-r0                               apk                            
 libidn2                                                                       2.3.8-r0                               apk                            
 libintl                                                                       0.24.1-r1                              apk                            
@@ -539,7 +539,7 @@ libpng                                                                        1.
 libproc2                                                                      4.0.6-r0                               apk                            
 libpsl                                                                        0.21.5-r3                              apk                            
 libseccomp                                                                    2.6.0-r1                               apk                            
-libssl3                                                                       3.5.5-r0                               apk                            
+libssl3                                                                       3.5.5-r1                               apk                            
 libtasn1                                                                      4.21.0-r0                              apk                            
 libunistring                                                                  1.4.1-r0                               apk                            
 libuuid                                                                       2.41.3-r0                              apk                            
