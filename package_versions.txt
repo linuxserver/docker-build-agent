@@ -21,18 +21,18 @@ cloud.google.com/go/compute/metadata                                          v0
 cloud.google.com/go/logging                                                   v1.13.2                                 go-module                      
 cloud.google.com/go/longrunning                                               v0.8.0                                  go-module                      
 code.cloudfoundry.org/clock                                                   v1.60.0                                 go-module                      
-containerd                                                                    2.3.0-r0                                apk                            
-coreutils                                                                     9.10-r1                                 apk                            
-coreutils-env                                                                 9.10-r1                                 apk                            
-coreutils-fmt                                                                 9.10-r1                                 apk                            
-coreutils-sha512sum                                                           9.10-r1                                 apk                            
+containerd                                                                    2.3.0-r1                                apk                            
+coreutils                                                                     9.11-r0                                 apk                            
+coreutils-env                                                                 9.11-r0                                 apk                            
+coreutils-fmt                                                                 9.11-r0                                 apk                            
+coreutils-sha512sum                                                           9.11-r0                                 apk                            
 curl                                                                          8.20.0-r0                               apk                            
 dario.cat/mergo                                                               v1.0.2                                  go-module     (+1 duplicate)   
-docker                                                                        29.4.2-r0                               apk                            
-docker-cli                                                                    29.4.2-r0                               apk                            
-docker-cli-buildx                                                             0.33.0-r1                               apk                            
-docker-cli-compose                                                            5.1.3-r0                                apk                            
-docker-engine                                                                 29.4.2-r0                               apk                            
+docker                                                                        29.4.3-r1                               apk                            
+docker-cli                                                                    29.4.3-r1                               apk                            
+docker-cli-buildx                                                             0.33.0-r2                               apk                            
+docker-cli-compose                                                            5.1.3-r1                                apk                            
+docker-engine                                                                 29.4.3-r1                               apk                            
 e2fsprogs                                                                     1.47.4-r0                               apk                            
 e2fsprogs-extra                                                               1.47.4-r0                               apk                            
 e2fsprogs-libs                                                                1.47.4-r0                               apk                            
@@ -306,8 +306,8 @@ github.com/moby/moby/client                                                   v0
 github.com/moby/moby/v2                                                       UNKNOWN                                 go-module     (+1 duplicate)   
 github.com/moby/patternmatcher                                                v0.6.1                                  go-module     (+2 duplicates)  
 github.com/moby/policy-helpers                                                v0.0.0-20260324161837-b7c0b994300b      go-module     (+1 duplicate)   
-github.com/moby/profiles/apparmor                                             v0.1.0                                  go-module                      
-github.com/moby/profiles/seccomp                                              v0.2.2                                  go-module                      
+github.com/moby/profiles/apparmor                                             v0.2.1                                  go-module                      
+github.com/moby/profiles/seccomp                                              v0.2.3                                  go-module                      
 github.com/moby/pubsub                                                        v1.0.0                                  go-module                      
 github.com/moby/spdystream                                                    v0.5.0                                  go-module                      
 github.com/moby/spdystream                                                    v0.5.1                                  go-module                      
@@ -544,14 +544,14 @@ libcrypto3                                                                    3.
 libcurl                                                                       8.20.0-r0                               apk                            
 libeconf                                                                      0.8.3-r0                                apk                            
 libedit                                                                       20251016.3.1-r1                         apk                            
-libexpat                                                                      2.8.0-r0                                apk                            
+libexpat                                                                      2.8.1-r0                                apk                            
 libffi                                                                        3.5.2-r1                                apk                            
 libidn2                                                                       2.3.8-r0                                apk                            
 libintl                                                                       1.0-r0                                  apk                            
 libjpeg-turbo                                                                 3.1.3-r0                                apk                            
 libmd                                                                         1.1.0-r0                                apk                            
 libmnl                                                                        1.0.5-r2                                apk                            
-libncursesw                                                                   6.6_p20260404-r0                        apk                            
+libncursesw                                                                   6.6_p20260502-r0                        apk                            
 libnftnl                                                                      1.3.1-r0                                apk                            
 libpng                                                                        1.6.58-r0                               apk                            
 libproc2                                                                      4.0.6-r0                                apk                            
@@ -575,7 +575,7 @@ lz4-libs                                                                      1.
 lzo                                                                           2.10-r5                                 apk                            
 musl                                                                          1.2.6-r2                                apk                            
 musl-utils                                                                    1.2.6-r2                                apk                            
-ncurses-terminfo-base                                                         6.6_p20260404-r0                        apk                            
+ncurses-terminfo-base                                                         6.6_p20260502-r0                        apk                            
 netcat-openbsd                                                                1.234.1-r0                              apk                            
 nftables                                                                      1.1.6-r1                                apk                            
 nghttp2-libs                                                                  1.69.0-r0                               apk                            
@@ -594,25 +594,25 @@ pcre2                                                                         10
 procps-ng                                                                     4.0.6-r0                                apk                            
 readline                                                                      8.3.3-r1                                apk                            
 resenje.org/singleflight                                                      v0.4.3                                  go-module                      
-runc                                                                          1.4.2-r1                                apk                            
+runc                                                                          1.4.2-r2                                apk                            
 scanelf                                                                       1.3.9-r1                                apk                            
 shadow                                                                        4.18.0-r1                               apk                            
 sigs.k8s.io/json                                                              v0.0.0-20250730193827-2d320260d730      go-module     (+1 duplicate)   
 sigs.k8s.io/randfill                                                          v1.0.0                                  go-module                      
 sigs.k8s.io/structured-merge-diff/v6                                          v6.3.0                                  go-module                      
 sigs.k8s.io/yaml                                                              v1.6.0                                  go-module     (+2 duplicates)  
-skalibs-libs                                                                  2.14.5.1-r0                             apk                            
+skalibs-libs                                                                  2.15.0.0-r0                             apk                            
 ssl_client                                                                    1.37.0-r31                              apk                            
-stdlib                                                                        go1.26.2                                go-module     (+8 duplicates)  
+stdlib                                                                        go1.26.3                                go-module     (+8 duplicates)  
 tags.cncf.io/container-device-interface                                       v1.1.0                                  go-module     (+2 duplicates)  
 tags.cncf.io/container-device-interface/specs-go                              v1.1.0                                  go-module     (+1 duplicate)   
 tini-static                                                                   0.19.0-r3                               apk                            
 tzdata                                                                        2026b-r0                                apk                            
 userspace-rcu                                                                 0.15.3-r0                               apk                            
-utmps-libs                                                                    0.1.3.2-r1                              apk                            
-xfsprogs                                                                      6.19.0-r0                               apk                            
+utmps-libs                                                                    0.1.3.3-r0                              apk                            
+xfsprogs                                                                      7.0.0-r0                                apk                            
 xz                                                                            5.8.3-r0                                apk                            
 xz-libs                                                                       5.8.3-r0                                apk                            
-yq-go                                                                         4.53.2-r0                               apk                            
+yq-go                                                                         4.53.2-r1                               apk                            
 zlib                                                                          1.3.2-r0                                apk                            
 zstd-libs                                                                     1.5.7-r2                                apk                            
