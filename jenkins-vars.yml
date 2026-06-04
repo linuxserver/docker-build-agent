@@ -6,8 +6,7 @@ external_type: os
 release_type: stable
 release_tag: latest
 ls_branch: main
-build_armhf: false
-build_riscv64: true
+build_riscv64: false
 repo_vars:
   - CONTAINER_NAME = 'build-agent'
   - BUILD_VERSION_ARG = 'BUILD_AGENT_RELEASE'
