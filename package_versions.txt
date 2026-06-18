@@ -12,8 +12,8 @@ btrfs-progs                                                                   6.
 busybox                                                                       1.37.0-r31                              apk                            
 busybox-binsh                                                                 1.37.0-r31                              apk                            
 c-ares                                                                        1.34.6-r0                               apk                            
-ca-certificates                                                               20260413-r0                             apk                            
-ca-certificates-bundle                                                        20260413-r0                             apk                            
+ca-certificates                                                               20260611-r0                             apk                            
+ca-certificates-bundle                                                        20260611-r0                             apk                            
 catatonit                                                                     0.2.1-r0                                apk                            
 cloud.google.com/go/auth                                                      v0.19.0                                 go-module                      
 cloud.google.com/go/auth/oauth2adapt                                          v0.2.8                                  go-module                      
@@ -508,7 +508,7 @@ k8s.io/utils                                                                  v0
 lcms2                                                                         2.19-r0                                 apk                            
 libapk                                                                        3.0.6-r0                                apk                            
 libattr                                                                       2.5.2-r2                                apk                            
-libblkid                                                                      2.42-r0                                 apk                            
+libblkid                                                                      2.42.1-r0                               apk                            
 libbsd                                                                        0.12.2-r0                               apk                            
 libbz2                                                                        1.0.8-r6                                apk                            
 libcom_err                                                                    1.47.4-r0                               apk                            
@@ -532,7 +532,7 @@ libseccomp                                                                    2.
 libssl3                                                                       3.5.7-r0                                apk                            
 libtasn1                                                                      4.21.0-r0                               apk                            
 libunistring                                                                  1.4.2-r0                                apk                            
-libuuid                                                                       2.42-r0                                 apk                            
+libuuid                                                                       2.42.1-r0                               apk                            
 libx11                                                                        1.8.13-r0                               apk                            
 libxau                                                                        1.0.12-r0                               apk                            
 libxcb                                                                        1.17.0-r2                               apk                            
@@ -566,7 +566,7 @@ pcre2                                                                         10
 procps-ng                                                                     4.0.6-r0                                apk                            
 readline                                                                      8.3.3-r1                                apk                            
 resenje.org/singleflight                                                      v0.4.3                                  go-module                      
-runc                                                                          1.4.2-r2                                apk                            
+runc                                                                          1.4.3-r0                                apk                            
 scanelf                                                                       1.3.9-r1                                apk                            
 shadow                                                                        4.18.0-r1                               apk                            
 sigs.k8s.io/json                                                              v0.0.0-20250730193827-2d320260d730      go-module     (+1 duplicate)   
