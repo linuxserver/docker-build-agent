@@ -263,7 +263,7 @@ github.com/lestrrat-go/httpcc                                                 v1
 github.com/lestrrat-go/httprc/v3                                              v3.0.2                                  go-module     (+1 duplicate)   
 github.com/lestrrat-go/jwx/v3                                                 v3.0.13                                 go-module     (+1 duplicate)   
 github.com/lestrrat-go/option/v2                                              v2.0.0                                  go-module     (+1 duplicate)   
-github.com/magiconair/properties                                              v1.8.10                                 go-module                      
+github.com/magiconair/properties                                              v1.18.11                                go-module                      
 github.com/mattn/go-colorable                                                 v0.1.14                                 go-module     (+1 duplicate)   
 github.com/mattn/go-isatty                                                    v0.0.20                                 go-module     (+1 duplicate)   
 github.com/mattn/go-runewidth                                                 v0.0.23                                 go-module     (+1 duplicate)   
@@ -330,8 +330,8 @@ github.com/opencontainers/selinux                                             v1
 github.com/package-url/packageurl-go                                          v0.1.1                                  go-module     (+2 duplicates)  
 github.com/pelletier/go-toml                                                  v1.9.5                                  go-module                      
 github.com/pelletier/go-toml/v2                                               v2.3.0                                  go-module                      
-github.com/pelletier/go-toml/v2                                               v2.3.1                                  go-module     (+2 duplicates)  
-github.com/pelletier/go-toml/v2                                               v2.4.3                                  go-module                      
+github.com/pelletier/go-toml/v2                                               v2.3.1                                  go-module     (+1 duplicate)   
+github.com/pelletier/go-toml/v2                                               v2.4.3                                  go-module     (+1 duplicate)   
 github.com/philhofer/fwd                                                      v1.2.0                                  go-module                      
 github.com/pkg/browser                                                        v0.0.0-20240102092130-5ac0b6a4141c      go-module                      
 github.com/pkg/errors                                                         v0.9.1                                  go-module     (+2 duplicates)  
@@ -398,7 +398,7 @@ github.com/yashtewari/glob-intersection                                       v0
 github.com/youmark/pkcs8                                                      v0.0.0-20240726163527-a2c0da244d78      go-module     (+2 duplicates)  
 github.com/yuin/gopher-lua                                                    v1.1.2                                  go-module                      
 github.com/zclconf/go-cty                                                     v1.17.0                                 go-module                      
-github.com/zclconf/go-cty                                                     v1.18.1                                 go-module                      
+github.com/zclconf/go-cty                                                     v1.19.0                                 go-module                      
 github.com/zmap/zcrypto                                                       v0.0.0-20230310154051-c8b263fd8300      go-module                      
 github.com/zmap/zlint/v3                                                      v3.5.0                                  go-module                      
 go.etcd.io/bbolt                                                              v1.4.3                                  go-module                      
@@ -444,27 +444,25 @@ go.yaml.in/yaml/v2                                                            v2
 go.yaml.in/yaml/v2                                                            v2.4.4                                  go-module     (+2 duplicates)  
 go.yaml.in/yaml/v3                                                            v3.0.4                                  go-module     (+1 duplicate)   
 go.yaml.in/yaml/v3                                                            v3.0.5                                  go-module                      
-go.yaml.in/yaml/v4                                                            v4.0.0-rc.4                             go-module     (+1 duplicate)   
-go.yaml.in/yaml/v4                                                            v4.0.0-rc.6                             go-module                      
+go.yaml.in/yaml/v4                                                            v4.0.0-rc.4                             go-module                      
+go.yaml.in/yaml/v4                                                            v4.0.0-rc.6                             go-module     (+1 duplicate)   
 golang.org/x/crypto                                                           v0.53.0                                 go-module                      
 golang.org/x/crypto                                                           v0.54.0                                 go-module     (+2 duplicates)  
 golang.org/x/exp                                                              v0.0.0-20241108190413-2d47ceb2692f      go-module     (+1 duplicate)   
 golang.org/x/mod                                                              v0.36.0                                 go-module                      
 golang.org/x/mod                                                              v0.38.0                                 go-module     (+2 duplicates)  
 golang.org/x/net                                                              v0.50.0                                 go-module                      
-golang.org/x/net                                                              v0.55.0                                 go-module     (+2 duplicates)  
-golang.org/x/net                                                              v0.57.0                                 go-module     (+3 duplicates)  
+golang.org/x/net                                                              v0.55.0                                 go-module     (+1 duplicate)   
+golang.org/x/net                                                              v0.57.0                                 go-module     (+4 duplicates)  
 golang.org/x/oauth2                                                           v0.36.0                                 go-module     (+1 duplicate)   
 golang.org/x/sync                                                             v0.21.0                                 go-module     (+1 duplicate)   
 golang.org/x/sync                                                             v0.22.0                                 go-module     (+2 duplicates)  
-golang.org/x/sys                                                              v0.45.0                                 go-module                      
 golang.org/x/sys                                                              v0.46.0                                 go-module     (+2 duplicates)  
-golang.org/x/sys                                                              v0.47.0                                 go-module     (+3 duplicates)  
+golang.org/x/sys                                                              v0.47.0                                 go-module     (+4 duplicates)  
 golang.org/x/term                                                             v0.44.0                                 go-module                      
 golang.org/x/term                                                             v0.45.0                                 go-module     (+2 duplicates)  
-golang.org/x/text                                                             v0.37.0                                 go-module                      
 golang.org/x/text                                                             v0.38.0                                 go-module                      
-golang.org/x/text                                                             v0.40.0                                 go-module     (+2 duplicates)  
+golang.org/x/text                                                             v0.40.0                                 go-module     (+3 duplicates)  
 golang.org/x/time                                                             v0.15.0                                 go-module     (+3 duplicates)  
 google.golang.org/api                                                         v0.287.1                                go-module                      
 google.golang.org/genproto                                                    v0.0.0-20260526163538-3dc84a4a5aaa      go-module                      
@@ -507,7 +505,7 @@ libcrypto3                                                                    3.
 libcurl                                                                       8.21.0-r0                               apk                            
 libeconf                                                                      0.8.4-r0                                apk                            
 libedit                                                                       20260508.3.1-r1                         apk                            
-libexpat                                                                      2.8.2-r0                                apk                            
+libexpat                                                                      2.8.3-r0                                apk                            
 libffi                                                                        3.5.2-r1                                apk                            
 libidn2                                                                       2.3.8-r0                                apk                            
 libintl                                                                       1.0-r0                                  apk                            
@@ -575,6 +573,6 @@ utmps-libs                                                                    0.
 xfsprogs                                                                      7.1.1-r0                                apk                            
 xz                                                                            5.8.3-r0                                apk                            
 xz-libs                                                                       5.8.3-r0                                apk                            
-yq-go                                                                         4.53.3-r1                               apk                            
+yq-go                                                                         4.53.4-r0                               apk                            
 zlib                                                                          1.3.2-r0                                apk                            
 zstd-libs                                                                     1.5.7-r2                                apk                            
