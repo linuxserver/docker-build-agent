@@ -29,7 +29,9 @@ RUN \
     openssh-client \
     openssh-server-pam \
     openssh-sftp-server \
+    pandoc-cli \
     xfsprogs \
+    xmlstarlet \
     xz \
     yq-go && \
   echo "**** setup openssh environment ****" && \
